@@ -136,6 +136,7 @@ class Fredtou_model:
                 return
     
     # Multi-categories Classification
+    
     def predict(self, X):
         layer = X
         for i in range(len(self.weights)):
